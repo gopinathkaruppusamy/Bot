@@ -33,10 +33,10 @@ from RocksAlexaRobot import (
     dispatcher,
     OWNER_ID,
     DEV_USERS,
-    SUPPORT_USERS,
+    DRAGONS,
     STRICT_GBAN,
     EVENT_LOGS,
-    spamwtc,
+    sw,
 )
 from RocksAlexaRobot.modules.helper_funcs.alternate import typing_action, send_action
 from RocksAlexaRobot.modules.helper_funcs.chat_status import user_admin, is_user_admin
@@ -108,7 +108,7 @@ def gban(update: Update, context: CallbackContext):
         )
         return
 
-    if int(user_id) in SUPPORT_USERS:
+    if int(user_id) in DRAGONS:
         message.reply_text(
             "OOOH someone's trying to gban a support user! *grabs popcorn*"
         )
@@ -332,7 +332,7 @@ def gbanlist(update, _):
 
 def check_and_ban(update, user_id, should_message=True):
     try:
-        spmban = spamwtc.get_ban(int(user_id))
+        spmban = sw.get_ban(int(user_id))
         if spmban:
             update.effective_chat.ban_member(user_id)
             if should_message:
@@ -422,7 +422,7 @@ def __user_info__(user_id):
 
     text = "<b>Globally banned</b>: {}"
 
-    if int(user_id) in DEV_USERS + SUPPORT_USERS:
+    if int(user_id) in DEV_USERS + DRAGONS:
         return ""
     if is_gbanned:
         text = text.format("Yes")
