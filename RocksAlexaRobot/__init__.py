@@ -83,6 +83,7 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', None)
     API_HASH = os.environ.get('API_HASH', None)
+    MONGO_DB_URI = os.environ.get('MONGO_DB_URI', 'mongodb+srv://logesh:logesh@cluster0.z75dh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
     DB_URI = os.environ.get('DATABASE_URL', 'postgresql://nsuzpjxvdzxjes:b6877be9131e11fdfa2b3c5d983f58ddfed6c085e817893be23bd9f9d6e94770@ec2-34-224-226-38.compute-1.amazonaws.com:5432/d3r5b8hojs47u7')
     DONATION_LINK = os.environ.get('DONATION_LINK')
     LOAD = os.environ.get("LOAD", "").split()
@@ -167,6 +168,7 @@ else:
     API_HASH = Config.API_HASH
 
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
+    MONGO_DB_URI = Config.MONGO_DB_URI 
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     INFOPIC = Config.INFOPIC
