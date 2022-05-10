@@ -1,10 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
-
 import os
 import shutil
 
@@ -246,5 +239,3 @@ async def box_blur(client, message):
             )
         except Exception:
             return
-
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo

@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 GBUN = (
     "Beware! This Bot-Admeme Can Gbun You Right Off The Map.",
     "I Guess You've Forgot Spelling Of GBAN Maybe...?",
@@ -442,17 +433,18 @@ SFW_STRINGS = (
     
   
 REPO = """━━━━━━━━━━━━━━━━━━━━━━━━
-💥 A ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ
-ᴏғ ♻️ ᴅʀ ᴀsᴀᴅ ᴀʟɪ 🔥
+💥 A ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ᴍᴜꜱɪᴄ ʙᴏᴛ
+ᴏғ ♻️  🔥
 ━━━━━━━━━━━━━━━━━
+ᴛʜɪꜱ ɪꜱ ᴘʀɪᴠᴀᴛᴇ ᴘʀᴏᴊᴇᴄᴛ ʙʏ ʟᴏɢᴇꜱʜ . ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ꜱᴘᴏɴꜱᴏʀ ʙʏ @ROWDY_OF_PLUS
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴍᴀɴᴀɢᴇᴍᴇɴᴛ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ [𝐂𝐫𝐞𝐚𝐭𝐨𝐫] @Dr_Asad_Ali
-┣★ [𝐇𝐞𝐚𝐫𝐭]     @Give_Me_Heart
-┣★ [𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬] @AsadSupport)
-┣★ [𝐎𝐮𝐫 𝐅𝐞𝐝] @Part_Of_Rocks)
-┣★ [𝐆𝐫𝐨𝐮𝐩] @Shayri_Music_Lovers)
+┣★ [OWNER]     @ROWDY_OF_PLUS
+┣★ [CODER]     @cl_me_logesh
+┣★ [𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬] @lgbots)
+┣★ [𝐎𝐮𝐫 𝐅𝐞𝐝] @gangs_for_udanpirappu)
+┣★ [𝐆𝐫𝐨𝐮𝐩] @udanpiruppu_gangs_federal)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 
-IF HAVE ANY QUESTION OR WANT REPO THEN CONTACT » TO » MY » [OWNER] @Dr_Asad_Ali)"""
+IF HAVE ANY QUESTION OR WANT REPO THEN CONTACT » TO » MY » [OWNER] @ROWDY_OF_PLUS)"""

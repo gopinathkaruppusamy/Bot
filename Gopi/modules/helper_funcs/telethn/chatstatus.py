@@ -1,9 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
 from Gopi.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
 from Gopi import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins

@@ -1,13 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
-
 from Gopi import dispatcher
 from Gopi.modules.helper_funcs.chat_status import (
     bot_admin, is_bot_admin, is_user_ban_protected, is_user_in_chat)

@@ -1,10 +1,3 @@
-# Module to blacklist users and prevent them from using commands by @Dr_Asad_Ali
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
 import html
 import Gopi.modules.sql.blacklistusers_sql as sql
 from Gopi import (DEV_USERS, OWNER_ID, DRAGONS, DEMONS, TIGERS, WOLVES,

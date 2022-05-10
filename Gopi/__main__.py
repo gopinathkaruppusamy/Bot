@@ -97,7 +97,7 @@ PM_START_TEXT = """
 ✪ ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴍ strᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ ꜰᴇᴀᴛᴜʀᴇꜱ. ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ ʟɪᴋᴇ ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ, ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.
 ✪ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ .
 ───────────────────────
-× *Pᴏᴡᴇʀᴇᴅ Bʏ: [ƬЄ𝗔Μ ƲƉ𝗔ИƤƖЯ𝗔ƤƤƲ](https://t.me/udanpiruppugangsfederal) 💕!*
+× *Pᴏᴡᴇʀᴇᴅ Bʏ: ƬЄ𝗔Μ ƲƉ𝗔ИƤƖЯ𝗔ƤƤƲ 💕!*
 ───────────────────────
 """
 
@@ -114,7 +114,7 @@ buttons = [
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="🦋 ʜᴇʟᴘ 🦋", callback_data="help_back"),
+                       InlineKeyboardButton(text="🦋 ʜᴇʟᴘ 🦋",  url=f"http://t.me/{BOT_USERNAME}?start=help"),
                        InlineKeyboardButton(text="🦋 ꜱᴜᴘᴘᴏʀᴛ 🦋", url="https://t.me/gangs_for_udanpirappu"),
                      ],
                     [                  
@@ -360,7 +360,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "ᴘᴏᴡᴇʀᴇᴅ ʙʏ [꧁༒MR. ᭄✰ 𝕋𝕀𝕄𝔼 𝕋ℝ𝔸𝕍𝔼𝕃𝕃𝔼ℝ★ᴮᴬᴰʙᴏʏツ༒꧂](t.me/ROWDY_OF_PLUS) ᴀɴᴅ ᴄᴏᴅᴇᴅ ʙʏ [ʟᴏɢᴇꜱʜ](https://t.me/aboutlogesh/12)\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴛʜᴇ *{}* ᴍᴏᴅᴜʟᴇ:\n".format(
+                "ᴘᴏᴡᴇʀᴇᴅ ʙʏ [꧁༒MR. ᭄✰ 𝕋𝕀𝕄𝔼 𝕋ℝ𝔸𝕍𝔼𝕃𝕃𝔼ℝ★ᴮᴬᴰʙᴏʏツ༒꧂](t.me/ROWDY_OF_PLUS)\nʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴛʜᴇ *{}* ᴍᴏᴅᴜʟᴇ:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -371,7 +371,7 @@ def help_button(update, context):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🍂 ʙᴀᴄᴋ 🍂", callback_data="help_back"),
-                      InlineKeyboardButton(text="🍂 ʜᴏᴍᴇ 🍂", callback_data="logi_back")]]
+                      InlineKeyboardButton(text="🍂 ʜᴏᴍᴇ 🍂", callback_data="alexa_back")]]
                 ),
             )
 
@@ -413,9 +413,9 @@ def help_button(update, context):
 
 
 
-def logi_data_callback(update, context):
+def alexa_data_callback(update, context):
     query = update.callback_query
-    if query.data == "logi_":
+    if query.data == "alexa_":
         query.message.edit_text(
             text="""CallBackQueriesData Here""",
             parse_mode=ParseMode.MARKDOWN,
@@ -423,12 +423,12 @@ def logi_data_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="logi_back")
+                    InlineKeyboardButton(text="Back", callback_data="alexa_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "logi_back":
+    elif query.data == "alexa_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -733,7 +733,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    data_callback_handler = CallbackQueryHandler(logi_data_callback, pattern=r"logi_")
+    data_callback_handler = CallbackQueryHandler(alexa_data_callback, pattern=r"alexa_")
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
@@ -759,7 +759,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Rocks logi is now alive and functioning")
+        LOGGER.info("Rocks alexa is now alive and functioning")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):

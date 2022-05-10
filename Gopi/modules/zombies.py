@@ -1,6 +1,3 @@
-# Written By Asad Ali
-# Rocks Alexa A Powerful Management Bot
-
 import asyncio
 from asyncio import sleep
 

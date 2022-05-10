@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 from Gopi import telethn as tbot
 import os
 
@@ -40,7 +31,7 @@ async def _(event):
         return
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-       await event.reply("🚨 Need Admin Pewer.. You can't use this command.. But you can use in my pm")
+       await event.reply("🚨 Need Admin Power.. You can't use this command.. But you can use in my pm")
        return
 
     input_str = event.pattern_match.group(1)

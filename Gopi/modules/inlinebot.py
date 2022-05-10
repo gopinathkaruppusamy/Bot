@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 import datetime
 import re
 import time
@@ -59,7 +50,7 @@ class AioHttp:
 
 __mod_name__ = "♦️Inline"
 __help__ = f"""
-INLINE BOT SERVICE OF @AsadSupport
+INLINE BOT SERVICE 
 I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.
 
 ──「 Syntax 」──
@@ -103,7 +94,7 @@ I'm more efficient when added as group admin. By the way these commands can be u
 
 __MODULE__ = "🔷Inline"
 __HELP__ = f"""
- ==>> **INLINE BOT SERVICE OF @AsadSupport** <<==
+ ==>> **INLINE BOT SERVICE  <<==
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
    >> Syntax <<
 @AsadSupport [command] [query]

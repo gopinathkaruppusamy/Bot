@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 import os
 import html
 import nekos
@@ -214,9 +205,6 @@ __handlers__ = [
 ]
 
 __help__ = """
-Module credits: [AlexaRobot](https://github.com/jankarikiduniya/Rocks-Alexa-Official-Management) ,
-Also thanks to [My Bro](https://t.me/HarshitSharma361) for NSFW filter. and heart me [Heart Me](t.me/Give_Me_Heart)
-    
 Usage:
     
 /addnsfw : Enable NSFW mode
@@ -234,4 +222,4 @@ Commands :
  - /baka: Sends Random Baka Shout GIFs.
 """
 
-__mod_name__ = "🐰 AɴɪᴍᴇPG"
+__mod_name__ = "🐰 AɴɪᴍᴇPG & NSFW"

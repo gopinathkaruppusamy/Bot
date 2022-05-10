@@ -1,10 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
-
 import hashlib
 import re
 
@@ -58,5 +51,3 @@ def human_to_bytes(size: str) -> int:
         size = re.sub(r"([KMGT])", r" \1", size)
     number, unit = [string.strip() for string in size.split()]
     return int(float(number) * units[unit])
-
-#Roses are red, Violets are blue, A face like yours, Belongs in a zoo

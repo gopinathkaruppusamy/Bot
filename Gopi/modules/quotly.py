@@ -1,13 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
-
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from telethon.tl import types, functions
 from fontTools.ttLib import TTFont 
@@ -400,4 +390,5 @@ async def _(event):
     await event.client.send_file(event.chat_id, "sticker.webp", reply_to=event.reply_to_msg_id)
     os.remove('sticker.webp')
 
-__mod_name__ = "Quotly"
+
+__mod_name__ = "🎃Qᴜᴏᴛʟʏ"

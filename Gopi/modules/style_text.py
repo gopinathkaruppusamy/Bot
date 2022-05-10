@@ -1,11 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
 from Gopi import dispatcher
 from Gopi.modules.disable import DisableAbleCommandHandler
 from Gopi.modules.helper_funcs.alternate import typing_action
@@ -357,10 +349,3 @@ __handlers__ = [TEXT4_HANDLER]
 __handlers__ = [TEXT5_HANDLER]
 
 
-
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo

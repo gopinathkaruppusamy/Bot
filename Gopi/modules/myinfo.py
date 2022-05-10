@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 from telethon import events, Button, custom, version
 from telethon.tl.types import ChannelParticipantsAdmins
 import asyncio
@@ -25,13 +16,13 @@ from Gopi import dispatcher
 
 
 edit_time = 5
-""" =======================ROCKS ALEXA====================== """
-file1 = "https://telegra.ph/file/85e4f39239fd84a27d138.jpg"
-file2 = "https://telegra.ph/file/9d22fedee29fdefdb4862.jpg"
-file3 = "https://telegra.ph/file/398464cf2d4fc012f2382.jpg"
-file4 = "https://telegra.ph/file/99342a6e4a98bb99eb825.jpg"
-file5 = "https://telegra.ph/file/f4d5aa912cd92c9fc17a3.jpg"
-""" =======================ROCKS ALEXA====================== """
+""" =======================TEAM UDANPIRABU====================== """
+file1 = "https://te.legra.ph/file/d5e4e6a1b6414b0d4444d.mp4"
+file2 = "https://te.legra.ph/file/314c36cf0fa2c4006e9fe.jpg"
+file3 = "https://te.legra.ph/file/d85924f1325458ed6d99e.jpg"
+file4 = "https://te.legra.ph/file/e9f5864f2fd89a3916525.mp4"
+file5 = "https://te.legra.ph/file/74f97b1978c493689fe6e.mp4"
+""" =======================TEAM UDANPIRABU====================== """
 
 
 @register(pattern="/myinfo")
@@ -74,7 +65,7 @@ async def callback_query_handler(event):
   try:
     boy = event.sender_id
     PRO = await bot.get_entity(boy)
-    LILIE = "POWERED BY @AsadSupport \n\n"
+    LILIE = "POWERED BY @ROWDY_OF_PLUS \n\n"
     LILIE += f"FIRST NAME : {PRO.first_name} \n"
     LILIE += f"LAST NAME : {PRO.last_name}\n"
     LILIE += f"YOU BOT : {PRO.bot} \n"
@@ -90,7 +81,4 @@ __command_list__ = [
     "myinfo"
 ]
 
-
-#myinfo module by Valt
-#Copyright by @pegasusXteam
 

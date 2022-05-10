@@ -1,10 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
 import html
 import random
 import re
@@ -22,9 +15,9 @@ from Gopi.modules.helper_funcs.alternate import typing_action
 from Gopi.modules.helper_funcs.chat_status import (is_user_admin)
 from Gopi.modules.helper_funcs.extraction import extract_user
 
-GN_IMG= "https://telegra.ph/file/f67bb5f05e5b0a0d3288c.jpg"
-DECIDE_IMG= "https://telegra.ph/file/313cfbc4056bd3b5cd995.jpg"
-JUDGE_IMG= "https://telegra.ph/file/a2ebfdd262def30ad42a7.jpg"
+GN_IMG= "https://te.legra.ph/file/314c36cf0fa2c4006e9fe.jpg"
+DECIDE_IMG= "https://te.legra.ph/file/d5e4e6a1b6414b0d4444d.mp4"
+JUDGE_IMG= "https://te.legra.ph/file/d85924f1325458ed6d99e.jpg"
 
 
 @run_async
@@ -35,7 +28,7 @@ def goodnight(update, context):
     reply = f"*Hey {escape_markdown(first_name)} \nGood Night! 😴*"
     message.reply_photo(GN_IMG,reply, parse_mode=ParseMode.MARKDOWN)
 
-GM_IMG= "https://telegra.ph/file/97c03a0eb3dbb0056a753.jpg"
+GM_IMG= "https://te.legra.ph/file/314c36cf0fa2c4006e9fe.jpg"
 @run_async
 @typing_action
 def goodmorning(update, context):

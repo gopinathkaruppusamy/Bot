@@ -46,6 +46,12 @@
          "required": true,
          "value": "2118899752"
       },
+      "BOT_USERNAME": {
+         "description": "Your bot username without the @",
+         "required"   : true,
+         "value": "Timetravellermanagebot"
+         
+      },      
       "OWNER_USERNAME": {
          "description": "Your username without the @",
          "value": "ROWDY_OF_PLUS"
@@ -89,7 +95,7 @@
          "value": "True"
       },
       "FED_USERNAME": {
-         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "description": "Enforce bans across new groups as well as old groups. When a banned user talks, he will be banned.",
          "required": true 
       },      
       "DRAGONS": {

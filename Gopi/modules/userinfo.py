@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 import html
 import re
 import os
@@ -299,7 +290,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/RocksAlexa/500">What is Ranks</a>]'.format(
+        text += ' \n[<a href="https://t.me/LOGI_CHANNEL/70">What is Ranks</a>]'.format(
             bot.username)
 
     try:
@@ -419,11 +410,11 @@ def stats(update: Update, context: CallbackContext):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="❤️ ʜᴇᴀʀᴛ ❤️",
-                             url=f"https://t.me/Give_Me_Heart"),
+                             text="❤️ ᴄʜᴀᴛ ❤️",
+                             url=f"https://t.me/gangs_for_udanpirappu"),
                        InlineKeyboardButton(
-                             text="‍‍‍👦 ɢʀᴏᴜᴘ ‍👦",
-                             url="https://t.me/Shayri_Music_Lovers")
+                             text="‍‍‍👦 ᴄʜᴀɴɴᴇʟ ‍👦",
+                             url="https://t.me/udanpiruppugangsfederal")
                      ] 
                 ]
             ),

@@ -1,10 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
-
 import math
 import time
 
@@ -45,5 +38,3 @@ async def progress(
             f"`Duration` -> {time_formatter(elapsed_time)}"
         )
         await gdrive.edit(f"`{prog_type}`\n\n" f"`Status`\n{tmp}")
-
-#Roses are red, Violets are blue, A face like yours, Belongs in a zoo

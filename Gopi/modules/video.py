@@ -1,13 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
-
 import asyncio, time, os, asyncio, json
 from telethon.tl.types import DocumentAttributeAudio
 from Gopi.events import register
@@ -123,7 +113,7 @@ async def download_video(v_url):
             caption=url,
             progress_callback=lambda d, t: asyncio.get_event_loop(
             ).create_task(
-                progress(d, t, v_url, c_time, "Uploading..At @Dr_Asad_Ali",
+                progress(d, t, v_url, c_time, "Uploading..At @gangs_for_udanpirappu",
                          f"{rip_data['title']}.mp4")))
         os.remove(f"{rip_data['id']}.mp4")
 

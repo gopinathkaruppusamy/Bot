@@ -1,9 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit
-
-
 import random
 from Gopi import telethn as tbot
 from telethon import events
@@ -33,5 +27,4 @@ async def wish(alexa):
          await tbot.send_file(alexa.chat_id, ALEXA,caption=f"**Your wish has been cast.✨**\n__chance of success {mm}%__", reply_to=lol,file=alexa)
 
         
-   
-        #Trying To Be A 𝗥𝗮𝗶𝗻𝗯𝗼𝘄 In Someone’s 𝗖𝗹𝗼𝘂𝗱.👉 @Give_Me_Heart
+

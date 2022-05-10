@@ -80,6 +80,7 @@ if ENV:
     WEBHOOK = bool(os.environ.get('WEBHOOK', False))
     URL = os.environ.get('URL', "")  # Does not contain token
     PORT = int(os.environ.get('PORT', 5000))
+    BOT_USERNAME =os.environ.get('BOT_USERNAME')
     CERT_PATH = os.environ.get("CERT_PATH")
     API_ID = os.environ.get('API_ID', None)
     API_HASH = os.environ.get('API_HASH', None)
@@ -167,6 +168,7 @@ else:
     CERT_PATH = Config.CERT_PATH
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
+    BOT_USERNAME = Config.BOT_USERNAME
 
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     FED_USERNAME = Config.FED_USERNAME

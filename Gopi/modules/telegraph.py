@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 from Gopi.events import register
 from Gopi import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
@@ -88,7 +79,10 @@ def resize_image(image):
     im.save(image, "PNG")
 
 
+__help__ = """
+ *Download youtube Videos and Songs...*
+ - `/tm` Reply to a message to get a permanent telegra.ph link
+"""
 
-
-__mod_name__ = "telegraph"
+__mod_name__ = "📂ᴛᴇʟᴇɢʀᴀᴘʜ"
 

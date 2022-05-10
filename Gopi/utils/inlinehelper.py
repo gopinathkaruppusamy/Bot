@@ -1,12 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
-
 import socket
 import json
 import sys
@@ -28,7 +19,7 @@ from pyrogram.types import (
 )
 from search_engine_parser import GoogleSearch
 
-from Gopi import OWNER_ID, pgram, arq
+from Gopi import OWNER_ID, pgram, arq , BOT_USERNAME
 from Gopi.utils.pluginhelpers import convert_seconds_to_minutes as time_convert
 from Gopi.utils.pluginhelpers import fetch
 
@@ -57,7 +48,7 @@ async def paste(content):
 async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=2)
     buttons.add(
-        InlineKeyboardButton("🔐 ᴍᴏʀᴇ ʜᴇʟᴘ.", url=f"t.me/ROCKS_OFFICIAL_BOT?start=help"),
+        InlineKeyboardButton("🔐 ᴍᴏʀᴇ ʜᴇʟᴘ.", url=f"t.me/{BOT_USERNAME}?start=help"),
         InlineKeyboardButton("🔄 ɢᴏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""),
     )
     answerss = [
@@ -65,7 +56,7 @@ async def inline_help_func(__HELP__):
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/85e4f39239fd84a27d138.jpg",
+            thumb_url="https://te.legra.ph/file/74f97b1978c493689fe6e.mp4",
             reply_markup=buttons,
         )
     ]
@@ -84,18 +75,18 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Rocks Alexa⚡](t.me/Shayri_Music_Lovers):**
+**[ ƬЄ𝗔Μ ƲƉ𝗔ИƤƖЯ𝗔ƤƤƲ⚡](https://t.me/udanpiruppugangsfederal):**
 **MainBot:** `{bot_state}`
 **Python:** `3.9`
 **Pyrogram:** `{pyrover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [OWNER](t.me/Dr_Asad_Ali) | [YOUTUBE](https://www.youtube.com/c/JankariKiDuniya)
+**Profiles:** [OWNER](t.me/ROWDY_OF_PLUS) 
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/f821830759461370f68d9.jpg",
+            thumb_url="https://te.legra.ph/file/74f97b1978c493689fe6e.mp4",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
