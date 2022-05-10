@@ -1,9 +1,3 @@
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-
-
 import RocksAlexaRobot.modules.sql.blacklistusers_sql as sql
 from RocksAlexaRobot import ALLOW_EXCL
 from RocksAlexaRobot import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES)
