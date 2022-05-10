@@ -125,6 +125,11 @@
          "required": false,
          "value": ""
       },
+      "MONGO_DB_URI": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": true,
+         "value": ""
+      },      
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
          "required": false,
