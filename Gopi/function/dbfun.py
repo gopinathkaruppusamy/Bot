@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["RocksAlexaRobot"]
+db = client["Gopi"]
 
 coupledb = db.couple
 karmadb = db.karma

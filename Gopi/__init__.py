@@ -1,11 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Without Credit (Mother Fucker)
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad + Harshit
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
-
-
 import logging
 import os
 import sys
@@ -210,12 +202,12 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
     
 #install aiohttp session
-print("[RocksAlexaRobot]: Initializing AIOHTTP Session")
+print("[Robot]: Initializing AIOHTTP Session")
 aiohttpsession = ClientSession() 
 arq = ARQ("https://thearq.tech", "GKNOHX-UDSREJ-AWTSGO-XFDSCY-ARQ", aiohttpsession)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("KURUMIBOT", API_ID, API_HASH)
-pgram = Client("RocksAlexaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pgram = Client("Robot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)

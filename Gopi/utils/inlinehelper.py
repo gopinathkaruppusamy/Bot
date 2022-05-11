@@ -70,7 +70,7 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("🔐 ᴍᴀɪɴ ʙᴏᴛ", url="https://t.me/ROCKS_OFFICIAL_BOT?start=help"),
+        InlineKeyboardButton("🔐 ᴍᴀɪɴ ʙᴏᴛ", url=f"https://t.me/{BOT_USERNAME}?start=help"),
         InlineKeyboardButton("🔄 ɢᴏ ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""),
     )
 

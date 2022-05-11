@@ -1,5 +1,3 @@
-# time zone info with country by Asad Ali
-
 import datetime
 from typing import List
 

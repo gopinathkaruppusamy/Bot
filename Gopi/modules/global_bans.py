@@ -431,7 +431,7 @@ Spam shield uses @Spamwatch API and Global bans to remove Spammers as much as po
 
 Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
 you and your groups by removing spam flooders as quickly as possible.
-*Note:* Users can appeal gbans or report spammers at [Asad Ali](t.me/Dr_Asad_Ali) and [Harshit Sharma](t.me/HarshitSharma361)
+*Note:* Users can appeal gbans or report spammers at [Gopi]](t.me/Rowdy_of_plus) and [Logesh](t.me/cl_me_logesh)
 
 SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury 
 characters. Alexa will constantly help banning spammers off from your group automatically So, you don't have to 

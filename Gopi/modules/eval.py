@@ -77,7 +77,7 @@ def do(func, bot, update):
     os.chdir(os.getcwd())
     with open(
             os.path.join(os.getcwd(),
-                         'RocksAlexaRobot/modules/helper_funcs/temp.txt'),
+                         'Gopi/modules/helper_funcs/temp.txt'),
             'w') as temp:
         temp.write(body)
 
