@@ -142,6 +142,3 @@ class CustomMessageHandler(MessageHandler):
             if isinstance(update, Update) and update.effective_message:
                 return self.filters(update)
               
-              #done
-              
-# Roses are red, Violets are blue, A face like yours, Belongs in a zoo
